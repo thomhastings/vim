@@ -1,0 +1,121 @@
+vim google.csv 
+rm google.csv 
+ls
+vim x.py
+ls
+rm x.py
+epdfview 514.pdf 
+clear
+alsamixer
+ahome-mnt
+cd /media/home/movies/
+l
+ls
+alsamixer
+mplayer -zoom -fs -cache 1024 the_ugly_truth.avi 
+ls
+mplayer -zoom -fs -cache 1024 the_girlfriend_experience_2009.avi 
+ls
+mplayer meet_bill_2007/meet_bill_2007.avi 
+ls
+mplayer -zoom -cache 1024 notorious_2009.avi 
+ls
+mplayer -cache -1024 -zoom my_best_friends_girl_2008.avi 
+mplayer -cache 1024 -zoom my_best_friends_girl_2008.avi 
+python
+ls
+cd infinite_campus/
+ls
+vim ic.py
+cd infinite_campus/
+python
+bpython
+ahome-ssh
+ls
+ls work
+soffice response.odt 
+alsamixer
+mpch next
+ahome-ssh
+vim x
+vim assignment
+ls
+alsamixer
+ahome-ssh
+sudo pacman -S bluez
+sudo /etc/rc.d/dbus start
+sudo /etc/rc.d/dbus restart
+sudo /etc/rc.d/bluetooth start
+sudo pacman -S blueman
+sudo pacman -Syu
+echo $B
+hcitool
+hcitool scan
+hidd --connect 00:0A:95:0B:E9:27
+blueman
+bluez-simple-agent 
+man pacman
+sudo pacman -Rs bluez
+sudo pacman -Rs blueman
+sudo pacman -S blueman
+blueman
+blueman-applet
+blueman-manager 
+blueman-applet 
+sudo pacman -Rs blueman
+sudo pacman -S blueman
+sudo pacman -Rs blueman
+pacman -Ss bluetooth-wizard
+pacman -Ss hcitool
+sudo pacman -S bluez
+hcitool scan
+sudo pacman -S bluez
+bluez-simple-agent 
+sudo pacman -Ss dbus-python
+sudo pacman -S dbus-python
+sudo pacman -Ss pygobj
+sudo pacman -S pygobject
+bluez-simple-agent 
+sudo bluez-simple-agent 
+sudo /etc/rc.d/dbus restart
+sudo /etc/rc.d/bluetooth stop
+sudo /etc/rc.d/dbus restart
+sudo /etc/rc.d/bluetooth start
+hcitool scan
+bluez-simple-agent 
+B=00:0A:95:08:E9:27
+su -c bluez-simple-agent
+hidd --connect B
+B
+$B
+hidd --connect $B
+sudo vim /etc/bluetooth/hcid.conf
+sudo vim /etc/bluetooth/hcid.conf 
+sudo vim /etc/bluetooth/main.conf 
+sudo vim /etc/bluetooth/input.conf 
+sudo vim /etc/bluetooth/rfcomm.conf 
+sudo vim /etc/default/bluetooth
+sudo /etc/rc.d/bluetooth restart
+sudo echo $B
+sudo hidd --connect $B
+hidd --connect $B
+sudo hidd --seacrch
+sudo hidd --search
+hcitool dev
+sudo rm /var/lib/bluetooth/*
+sudo rm -rf /var/lib/bluetooth/*
+sudo hidd --search
+sudo pacman -Rs bluez
+sudo pacman -S bluez
+sudo vim /etc/conf.d/bluetooth 
+sudo /etc/rc.d/bluetooth restart
+sudo hidd --search
+sudo rm -rf /var/lib/bluetooth/*
+sudo hidd --search
+sudo vim /etc/conf.d/bluetooth 
+sudo hidd --search
+sudo rm -rf /var/lib/bluetooth/*
+sudo /etc/rc.d/bluetooth restart
+sudo hidd --search
+sudo /etc/rc.d/bluetooth restart
+su

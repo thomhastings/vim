@@ -1,0 +1,84 @@
+feh Music\ Man.jpg 
+ls
+clear
+ll
+feh No\ Blue\ Skies\ for\ Anheuser\ Busch.jpg 
+clear
+ll
+feh Road\ Closed.jpg 
+feh Shy\ Sun.jpg 
+feh The\ Eyes\ of\ Bambino.jpg
+ls -l
+feh The\ Leaning\ \(Water\)\ Tower\ of\ Britten.jpg 
+ls
+feh These\ Shoes\ Were\ Made\ For\ Walkin.jpg 
+ls
+feh Tonka.jpg 
+ls
+feh Uncle\ Richard\ -\ Three-Quartered\ Profile.jpg 
+ll
+feh No\ Blue\ Skies\ for\ Anheuser\ Busch.jpg 
+vim
+ahome-ssh
+ls
+cd pics/named/
+ls
+feh *
+cd pics/
+mv And\ So\,\ The\ Storms\ Made\ Their\ Appearance\,\ Slowly.jpg named/A\ Step\ Back.jpg
+mv Before\ It\ Settles.jpg named/Whispering\ Heights.jpg
+mv Bike.jpg named/Ride\ My\ Hardley.jpg
+mv Bliss.jpg named/Together\ We\ Flourish.jpg
+mv Couple.jpg named/Dew\ Leaf\ Me\ Alone.jpg
+mv Dawn\ \&\ Laura\ Photoshoot.jpg named/Ain\'t\ She\ Sweet.jpg
+ls named/
+mv Ding\ -\ The\ Bell.jpg named/Hangin\'\ Out\ With\ The\ Bunch.jpg
+mv Hold\ Me\,\ Mother.jpg named/Folk\ Art.jpg
+ls
+mv Hello.jpg named/I\ Can\ Play\ Anywhere.jpg
+mv In\ Parts\,\ We\ Are\ One.jpg named/Mighty\ and\ Strong.jpg
+mv James\ \(And\ Polkadot\ Froggie\).jpg named/I\'ve\ Got\ A\ Friend.jpg
+mv Music\ Man.jpg named/An\ Old\ Tune.jpg
+mv Road\ Closed.jpg named/Not\ For\ Me.jpg
+mv Shy\ Sun.jpg named/Just\ Call\ Me\ Ray.jpg
+feh named/Dew\ Leaf\ Me\ Alone.jpg 
+mv named/Dew\ Leaf\ Me\ Alone.jpg named/Dew\ Drop\ Inn.jpg
+mv The\ Eyes\ of\ Bambino.jpg named/I\'m\ So\ Cute\,\ I\ Couldn\'t\ Possibly\ Have\ Eaten\ It.jpg
+mv The\ Leaning\ \(Water\)\ Tower\ of\ Britten.jpg named/Italy\ Bound.jpg
+mv These\ Shoes\ Were\ Made\ For\ Walkin.jpg named/Shoe-In\ For\ The\ Part.jpg
+mv named/Shoe-In\ For\ The\ Part.jpg named/Souled.jpg
+mv Tonka.jpg named/Where\ Is\ My\ Pack.jpg
+mv Uncle\ Richard\ -\ Three-Quartered\ Profile.jpg named/Content.jpg
+mv No\ Blue\ Skies\ for\ Anheuser\ Busch.jpg named/Not\ For\ Me.jpg 
+cd named/
+mv Not\ For\ Me.jpg No\ Blue\ Skies\ for\ Anheuser\ Busch.jpg
+cd ..
+ls
+ls ..
+mv ../Not\ For\ Me.jpg named/
+clear
+ps aux |grep keepass
+kill 21391 21417
+ps aux |grep keepass
+ahome-ssh
+mpch search Artist Paul\ Simon
+mpch clear
+mpch search Artist Paul\ Simon | mpch add
+mpch
+mpch pla
+mpch play
+mpch stop
+mpch
+ls
+cd school/
+ls
+epdfview university_of_chicago_supplement_instructions.pdf 
+ahome-mnt
+mpch
+mpch search
+mpch listall
+mpch listall |egrep -v "^mp3-*|^Enigma"
+mpch listall |egrep -v "^mp3-*|^Enigma" | mpch add
+mpch play
+mpch listall |egrep -v "^mp3-*|^Enigma|^Andrea" | mpch add
+mpch cle

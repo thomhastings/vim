@@ -1,0 +1,61 @@
+{
+   "bookmark_bar": {
+      "show_on_all_tabs": false
+   },
+   "browser": {
+      "clear_data": {
+         "cookies": false,
+         "passwords": true,
+         "time_period": 3
+      },
+      "ntp": {
+         "promo_image_remaining": -50,
+         "promo_line_remaining": -50
+      },
+      "show_home_button": true
+   },
+   "countryid_at_install": 21843,
+   "default_search_provider": {
+      "id": "2",
+      "name": "Google",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "download": {
+      "default_directory": "/home/michael",
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "last_check": "12910577752427651",
+         "next_check": "12910597192117703"
+      },
+      "settings": {
+         "cfhdojbkjhnklbpkdaibdccddilifddb": {
+            "location": 1,
+            "manifest": {
+               "background_page": "background.html",
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "initial-block.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               }, {
+                  "all_frames": true,
+                  "js": [ "jquery-1.4.1.min.js", "blocker.js", "disabletextads.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_end"
+               } ],
+               "description": "Blocks ads using the Firefox AdBlock Plus filter engine. Kiss ads goodbye and browse in peace!",
+               "icons": {
+                  "128": "icons/face-devilish-128.png",
+                  "16": "icons/face-devilish-16.png",
+                  "32": "icons/face-devilish-32.png",
+                  "48": "icons/face-devilish-48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxGWIIBRUVzQIXITqE6+js1FA24fsZC58G0fxcO1Duwfps+9gip5tedTziErKEpeAQVkgasdT4kk+b6Lw27yp3oysAj6zD9j+j4W+EMArTXqMIc6SMYD7Z8bPcwPb3tC1MUxMSpO6oOVpFE23UhKe91SYnrK92nHI2cmsor5elXQIDAQAB",
+               "name": "AdThwart",
+               "options_page": "options.html",
+               "page_action": {
+                  "defaul
