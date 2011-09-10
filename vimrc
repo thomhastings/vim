@@ -16,7 +16,6 @@ set nohlsearch
 set ignorecase
 set smartcase
 set nobackup
-set fuopt+=maxhorz " Full-width fullscreen
 set backspace=indent,eol,start
 set so=5 " Keep 5 lines above/below cursor always
 nnoremap ; :
