@@ -22,6 +22,7 @@ nnoremap ; :
 set list listchars=tab:»·,trail:·
 set viminfo=%,'50,f1,\"100,n~/.viminfo
 set foldmethod=indent " Folding
+nnoremap \zz :let &scrolloff=999-&scrolloff<CR>
 let mapleader=","
 
 " 80 Columns Is Best
