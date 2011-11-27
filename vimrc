@@ -40,3 +40,15 @@ map <leader>sv :match<CR>:set nolist<CR>:ConqueTermVSplit zsh<CR>
 " Interp
 map <leader>p :w !interp 'python -i' &<CR><CR>
 map <leader>h :w !interp 'ghci -XPackageImports' 'ghci-XXXXXXXX.hs' &<CR><CR>
+
+" JSON Syntax Highlighting
+" via http://www.vim.org/scripts/script.php?script_id=1945
+augroup json_autocmd
+    autocmd!
+    autocmd FileType json set autoindent
+    autocmd FileType json set formatoptions=tcq2l
+    autocmd FileType json set textwidth=78 shiftwidth=4
+    autocmd FileType json set softtabstop=4 tabstop=8
+    autocmd FileType json set expandtab
+    autocmd FileType json set foldmethod=syntax
+augroup END
