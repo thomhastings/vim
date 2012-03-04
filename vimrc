@@ -25,8 +25,8 @@ set foldmethod=indent " Folding
 nnoremap \zz :let &scrolloff=999-&scrolloff<CR>
 let mapleader=","
 
-" 80 Columns Is Best
-match ErrorMsg '\%>80v.\+'
+" 80 Columns Is Best "m0mma knows best
+"match ErrorMsg '\%>80v.\+'
 
 " Window resizing
 map + <C-W>+
