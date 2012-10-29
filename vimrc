@@ -26,7 +26,7 @@ nnoremap \zz :let &scrolloff=999-&scrolloff<CR>
 let mapleader=","
 
 " 80 Columns Is Best
-match ErrorMsg '\%>80v.\+'
+"match ErrorMsg '\%>80v.\+'     " I disagree with Michael on this one and only point.
 
 " Window resizing
 map + <C-W>+
