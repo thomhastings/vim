@@ -1,5 +1,6 @@
 colorscheme wombat
 syntax on
+set nomodeline " For security as reccomended by FreeBSD.
 set nocompatible
 set nowrap
 set autoindent
