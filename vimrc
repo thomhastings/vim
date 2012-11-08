@@ -26,8 +26,8 @@ set foldmethod=indent " Folding
 nnoremap \zz :let &scrolloff=999-&scrolloff<CR>
 let mapleader=","
 
-" 80 Columns Is Best
-"match ErrorMsg '\%>80v.\+'     " I disagree with Michael on this one and only point.
+" 80 Columns Is Best        " Thom disagrees with Michael on this noe and only point.
+match ErrorMsg '\%>80v.\+'  " Some of his scripts have lines way longer than 80 chars.
 
 " Window resizing
 map + <C-W>+
