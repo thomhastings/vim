@@ -1,5 +1,6 @@
 colorscheme wombat
 syntax on
+set nomodeline " For security as reccomended by FreeBSD.
 set nocompatible
 set nowrap
 set autoindent
@@ -25,8 +26,13 @@ set viminfo=%,'50,f1,\"100,n~/.viminfo
 "nnoremap \zz :let &scrolloff=999-&scrolloff<CR> "simpl1city
 let mapleader=","
 
+<<<<<<< HEAD
 " 80 Columns Is Best "m0mma knows best
 "match ErrorMsg '\%>80v.\+'
+=======
+" 80 Columns Is Best          Thom disagrees with Michael on this one and only point.
+"match ErrorMsg '\%>80v.\+' " Some of his scripts have lines way longer than 80 chars.
+>>>>>>> 1bbf67eaf62a6216d150eddbe0b376b25d23df5a
 
 " Window resizing
 map + <C-W>+
