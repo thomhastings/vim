@@ -19,10 +19,10 @@ set nobackup
 set backspace=indent,eol,start
 set so=5 " Keep 5 lines above/below cursor always
 nnoremap ; :
-set list listchars=tab:»·,trail:·
+set list listchars=tab:>.,trail:.
 set viminfo=%,'50,f1,\"100,n~/.viminfo
-set foldmethod=indent " Folding
-nnoremap \zz :let &scrolloff=999-&scrolloff<CR>
+"set foldmethod=indent " Folding
+"nnoremap \zz :let &scrolloff=999-&scrolloff<CR> "simpl1city
 let mapleader=","
 
 " 80 Columns Is Best "m0mma knows best
